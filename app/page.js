@@ -87,7 +87,7 @@ export default function Home() {
       </div>
       <footer className="bg-gray-200 text-center py-4">
         <p className="text-sm text-gray-600">
-          Powered by 0xFillin | MIT License
+        Copyright (c) 2025 <a href="https://github.com/0xFillin" target="_blank" rel="noopener noreferrer" className="text-blue-500">0xFillin</a>
         </p>
       </footer>
     </div>
