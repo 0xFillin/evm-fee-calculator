@@ -44,7 +44,7 @@ export default function Home() {
           </div>
           <div className="mb-4">
             <label className="block text-sm font-medium text-gray-600 mb-1">
-              Priority Fee(Gwei)<sup>1</sup> 
+              Priority Fee(Gwei)
             </label>
             <input
               type="number"
@@ -72,9 +72,6 @@ export default function Home() {
           >
             Calculate
           </button>
-          <p className="mt-2 text-sm text-gray-500">
-          <sup>1</sup>Arbitrum Chain does not use this type of fee
-          </p>
           {resultEth !== null && (
             <div className="mt-6 bg-gray-100 p-4 rounded-lg text-center">
               <h2 className="text-xl font-bold text-gray-700">Total Fee</h2>
