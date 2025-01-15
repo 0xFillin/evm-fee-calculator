@@ -44,7 +44,7 @@ export default function Home() {
           </div>
           <div className="mb-4">
             <label className="block text-sm font-medium text-gray-600 mb-1">
-              Priority Fee(Gwei)<sup>1</sup> 
+              Priority Fee(Gwei)<sup>1</sup>
             </label>
             <input
               type="number"
@@ -73,7 +73,7 @@ export default function Home() {
             Calculate
           </button>
           <p className="mt-2 text-sm text-gray-500">
-          <sup>1</sup>Arbitrum Chain does not use this type of fee
+            <sup>1</sup>Arbitrum Chain does not use this type of fee
           </p>
           {resultEth !== null && (
             <div className="mt-6 bg-gray-100 p-4 rounded-lg text-center">
@@ -90,7 +90,7 @@ export default function Home() {
       </div>
       <footer className="bg-gray-200 text-center py-4">
         <p className="text-sm text-gray-600">
-          Powered by 0xFillin | MIT License
+        Copyright (c) 2025 <a href="https://github.com/0xFillin" target="_blank" rel="noopener noreferrer" className="text-blue-500">0xFillin</a>
         </p>
       </footer>
     </div>
