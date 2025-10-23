@@ -50,7 +50,7 @@ export default function Home() {
               type="number"
               value={priorityFee}
               onChange={(e) => setPriorityFee(e.target.value)}
-              className="w-full px-3 py-2 border rounded-lg shadow-sm focus:outline-none focus:ring focus:ring-blue-200"
+              className="w-full px-3 py-2 border rounded-lg shadow-sm focus:outline-none focus:ring focus:ring-blue-200 text-gray-700"
               placeholder="Enter Priority Fee"
             />
           </div>
@@ -62,7 +62,7 @@ export default function Home() {
               type="number"
               value={gas}
               onChange={(e) => setGas(e.target.value)}
-              className="w-full px-3 py-2 border rounded-lg shadow-sm focus:outline-none focus:ring focus:ring-blue-200"
+              className="w-full px-3 py-2 border rounded-lg shadow-sm focus:outline-none focus:ring focus:ring-blue-200 text-gray-700"
               placeholder="Enter Gas Units"
             />
           </div>
